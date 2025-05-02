@@ -1,0 +1,908 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Montserrat", serif;
+}
+
+img {
+    width: 100%;
+}
+
+a {
+    text-decoration: none;
+    /* color:; */
+}
+
+ul {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+
+body{
+    background-color: #000000e7;
+}
+
+.main-scroll{
+    overflow: hidden;
+}
+
+.container {
+    max-width: 1300px;
+    width: 100%;
+    margin: 0 auto;
+    padding: 0 15px;
+}
+
+::-webkit-scrollbar {
+    width: 5px;
+}
+
+::-webkit-scrollbar-track {
+    background: #ccc;
+}
+
+::-webkit-scrollbar-thumb {
+    background: #2196F3;
+    border-radius: 10px;
+}
+
+/* header css start */
+
+header {
+    background-color: #fff;
+    border-bottom: 0.0625rem solid rgba(0, 0, 0, 0.10);
+    padding: 0.75rem 0;
+    z-index: 9999;
+    position: sticky;
+    top: 0;
+    left: 0;
+}
+
+/* Sticky Header Effects */
+header.sticky {
+    border-bottom: 0.0625rem solid rgba(255, 200, 39, 0.1);
+    box-shadow: rgba(0, 0, 0, 0.16) 0rem 0.0625rem 0.25rem;
+}
+
+.navbar {
+    display: grid;
+    grid-template-columns: 1fr 3fr;
+    align-items: center;
+    overflow: hidden;
+}
+
+.navbar img {
+    max-width: 9.5rem;
+    justify-self: start;
+    /* margin-left: 1.25rem; */
+}
+
+.navbar ul {
+    display: flex;
+    justify-content: flex-end;
+}
+
+.navbar ul li {
+    padding: 0 0 0 24px;
+}
+
+.nav-item a {
+    display: inline-block;
+    font-size: 16px;
+    font-weight: 500;
+    color: #000;
+    position: relative;
+    padding-bottom: 6px;
+}
+
+.nav-item a::after {
+    content: '';
+    position: absolute;
+    width: 100%;
+    transform: scaleX(0);
+    border-radius: 0.3125rem;
+    height: 0.09375rem;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background: #0064c2;
+    transform-origin: center;
+    transition: all 0.3sease-out;
+}
+
+.logo {
+    background-image: url(../images/);
+    background-position: left;
+    background-size: contain;
+    background-repeat: no-repeat;
+    width: 200px;
+    height: 43px;
+}
+
+.nav-item a.active::after {
+    transform: scaleX(0.9);
+    transform-origin: center;
+}
+
+.nav-item a.active, .nav-item a:hover {
+    color: #0064c2;
+}
+.mb-20 {
+    margin-bottom: 20px;
+  }
+  
+  .mb-30 {
+    margin-bottom: 30px;
+  }
+  
+  .mt-30 {
+    margin-top: 30px;
+  }
+  
+  .mb-40 {
+    margin-bottom: 40px;
+  }
+  
+  .mt-40 {
+    margin-top: 40px;
+  }
+  
+  .mb-60 {
+    margin-bottom: 60px;
+  }
+  
+  .mt-60 {
+    margin-top: 60px;
+  }
+  
+  .mb-80 {
+    margin-bottom: 80px;
+  }
+
+  .pt-80{
+    padding-top: 80px;
+  }
+  
+  .mt-80 {
+    margin-top: 80px;
+  }
+  
+  .pt-120 {
+    padding-top: 120px;
+  }
+
+/* 
+=================================
+Mobile Menu Styles
+=================================
+*/
+.menu-toggle {
+    justify-self: end;
+    margin-right: 1.5625rem;
+    display: none;
+}
+
+.menu-toggle .bar {
+    width: 1.5625rem;
+    height: 0.1875rem;
+    background-color: #000;
+    margin: 0.3125rem auto;
+    transition: all 0.3s ease-in-out;
+}
+
+.menu-toggle:hover {
+    cursor: pointer;
+}
+
+/* Mobile Menu Active State */
+
+#mobile-menu.is-active .bar:nth-child(2) {
+    opacity: 0;
+}
+
+#mobile-menu.is-active .bar:nth-child(1) {
+    transform: translateY(0.5rem) rotate(45deg);
+}
+
+#mobile-menu.is-active .bar:nth-child(3) {
+    transform: translateY(-0.5rem) rotate(-45deg);
+}
+
+/* 
+=================================
+Keyframe Animations
+=================================
+*/
+@keyframes gradbar {
+    0% {
+        background-position: 0% 50%;
+    }
+
+    50% {
+        background-position: 100% 50%;
+    }
+
+    100% {
+        background-position: 0% 50%;
+    }
+}
+
+
+ /* banner section css start */
+
+.hero-bg {
+    background: url(../images/home-banner.webp);
+    width: 100%;
+    padding: 140px 0;
+    background-position: center center !important;
+    background-repeat: no-repeat !important;
+    background-size: cover !important;
+    height: 640px;
+    display: flex;
+    align-items: center;
+    position: relative;
+    justify-content: center;
+    z-index: 1;
+}
+
+.hero-bg::after {
+    content: '';
+    position: absolute;
+    inset: 0;
+    width: 100%;
+    height: 100%;
+    background-color: #00000066;
+    z-index: -1;
+}
+
+.hero-bnr {
+    position: relative;
+    text-align: center;
+    overflow: hidden;
+}
+
+.swiper {
+    width: 100%;
+}
+
+.swiper-slide {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 300px;
+}
+
+.hero-text {
+    max-width: 900px;
+    margin: auto;
+    transition: opacity 1s ease-in-out;
+    margin-bottom: 100px;
+}
+
+.hero-text2 p {
+    font-size: 18px;
+    line-height: 25px;
+    color: #fff;
+}
+
+.hero-text2 {
+    margin-top: 2rem;
+}
+
+
+.hero-text h1 {
+    color: #fff;
+    font-size: 45px;
+    font-weight: 600;
+    margin-bottom: 20px;
+}
+
+/* banner section end */
+
+
+
+
+/*newsletter sec  */
+.newsletter {
+    background-image: url("../images/home-banner.webp");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    background-attachment: fixed;
+    height: 500px;
+    width: 100%;
+    display: flex;
+    justify-self: center;
+    align-items: center;
+    position: relative;
+    text-align: center;
+}
+
+.newsletter::after {
+    position: absolute;
+    content: "";
+    top: 0;
+    right: 0;
+    left: 0;
+    bottom: 0;
+    background-color: rgb(26 0 0 / 50%)
+}
+
+.newsletter_formWrap {
+    display: flex;
+    gap: 1rem;
+    align-items: center;
+    justify-self: center;
+    background-color:#fff;
+    max-width: 480px;
+    width: 100%;
+    padding: 4px;
+    border-radius: 4px;
+}
+
+.newsletter_formWrap .newsletter_input {
+    border: none;
+    outline: none;
+    background-color: transparent;
+    padding: 16px;
+    width: 100%;
+    font-size: 16px;
+    font-weight: 400;
+    color: #222;
+}
+
+.newsletter_formWrap .newsletter_input::placeholder {
+    color: #222;
+    opacity: 50%;
+}
+
+.newsletter_wrapper {
+    background-color: #1e1e1ed6;
+    padding: 24px;
+    max-width: 700px;
+    margin-inline: auto;
+    position: relative;
+    z-index: 1;
+}
+
+.newsletter_wrapper .page-heading {
+    margin-bottom: 8px;
+}
+
+.newsletter_content p {
+    color: #fff;
+}
+
+.btn {
+    display: inline-block;
+    padding: 12px 32px;
+    font-size: 16px;
+    font-weight: 400;
+    background: linear-gradient(135deg, #6e8efb, #a777e3);
+    line-height: normal;
+    border: 1px solid transparent;
+    outline: none;
+    transition: 0.3s ease-in-out;
+    position: relative;
+    color: #fff;
+    cursor: pointer;
+}
+
+.btn:hover{
+    color: #e1bd85;
+    background-color: #fff;
+    border: 1px solid #e1bd85;
+}
+
+h2.page-heading {
+    font-size: 30px;
+    font-weight: 600;
+}
+
+.hero-text p {
+    font-size: 18px;
+    color: #fff;
+    line-height: 25px;
+}
+
+
+
+/* festival card css start */
+
+
+.read-more-heading h2 {
+    font-size: 40px;
+    font-weight: 600;
+    text-align: center;
+    color:#0064c2;
+    padding-bottom: 20px;
+}
+
+  .zeuzie-listings {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 1rem;
+    justify-content: space-between;
+  }
+
+  .listing {
+    flex: 1 1 30%;
+    background: #fff;
+    border-radius: 8px;
+    overflow: hidden;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+    text-align: center;
+    padding: 1rem;
+    margin-bottom: 20px;
+}
+
+  .listing img {
+    width: 100%;
+    height: auto;
+    border-radius: 4px;
+  }
+
+  .listing h3 {
+    margin: 0.5rem 0;
+    color: #000;
+  }
+
+  .listing p {
+    color: #555;
+  }
+
+  .listing a {
+    text-decoration: none;
+  }
+
+  .listing a:hover h3 {
+    text-decoration: underline;
+    color: #0064c2;
+}
+
+  .read-more-img {
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+    height: 100%;
+    transition: 0.4s all ease-in-out;
+}
+
+.read-more-main {
+    width: 100%;
+    height: 300px;
+    overflow: hidden;
+}
+
+.read-more-img:hover {
+    transform: scale(1.2);
+}
+
+/* festival card css end */
+
+
+/* big event css start */
+
+.event-heading h4 {
+    font-size: 22px;
+    color: #fff;
+    line-height: 30px;
+    font-weight: 600;
+    padding-bottom: 20px;
+    border-bottom: 1px solid;
+    width: 303px;
+}
+
+.big-event-img {
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 100%;
+    height: 370px;
+    border-radius: 0 30px;
+}
+
+.big-event-text p {
+    color: #fff;
+    font-size: 18px;
+    line-height: 25px;
+    font-weight: 500;
+}
+
+.big-event-text {
+    padding-top: 25px;
+}
+
+.glow-button {
+    padding: 12px 24px;
+    font-size: 16px;
+    color: white;
+    background: linear-gradient(135deg, #6e8efb, #a777e3);
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    transition: all 0.3s ease;
+    box-shadow: 0 0 10px rgba(174, 113, 230, 0.3);
+    position: relative;
+    overflow: hidden;
+}
+
+  .glow-button::after {
+    content: '';
+    position: absolute;
+    top: -50%;
+    left: -50%;
+    width: 200%;
+    height: 200%;
+    background: radial-gradient(circle, rgba(255,255,255,0.2) 0%, transparent 70%);
+    opacity: 0;
+    transition: opacity 0.5s, transform 0.5s;
+    transform: scale(0);
+  }
+
+  .glow-button:hover::after {
+    opacity: 1;
+    transform: scale(1);
+  }
+
+  .glow-button:hover {
+    box-shadow: 0 0 20px rgba(174, 113, 230, 0.6), 0 0 40px rgba(174, 113, 230, 0.4);
+    transform: translateY(-2px);
+  }
+
+  /* big event css start */
+
+
+
+/* trip plan css start */
+
+  .trip-plan-img {
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+    height: 370px;
+    border-radius: 30px 0;
+}
+
+.trip-plan-heading h4 {
+    font-size: 22px;
+    color: #fff;
+    line-height: 30px;
+    font-weight: 600;
+}
+
+.trip-plan-heading p {
+    color: #fff;
+    font-size: 18px;
+    line-height: 25px;
+    border-bottom: 2px solid #ffffffad;
+    padding-bottom: 15px;
+    margin-bottom: 0;
+}
+
+.trip-plan-text p {
+    font-size: 18px;
+    color: #fff;
+    font-weight: 400;
+    line-height: 25px;
+}
+
+.trip-plan-text {
+    padding-top: 20px;
+}
+/* trip plan css end */
+
+
+/* find las vegas hotel section start */
+
+.right-hotel-heading {
+    text-align: center;
+    margin-bottom: 40px;
+  }
+  
+  .right-hotel-heading h2 {
+    color:#0064c2;
+    font-size: 40px;
+    font-weight: 600;
+    line-height: 100%;
+}
+
+.right-hotel-heading p {
+    font-size: 16px;
+    color: #fff;
+    font-weight: 500;
+}
+ 
+  .card {
+    position: relative;
+    width: 100%;
+    height: 360px;
+    overflow: hidden;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+  }
+  
+  
+  .card-content {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    padding: 20px;
+    background: rgba(0, 0, 0, 0.7);
+    color: white;
+    transition: transform 0.5s ease;
+    transform: translateY(100%);
+  }
+  
+  
+  .card-heading {
+    font-size: 18px;
+    margin: 0;
+  }
+  
+ 
+  .card-text {
+    margin: 10px 0 0;
+    opacity: 0;
+    font-size: 1rem;
+    transition: opacity 0.3s ease 0.2s;
+  }
+  
+
+  .card:hover .card-content {
+    transform: translateY(0);
+  }
+  
+  .card:hover .card-text {
+    opacity: 1;
+  }
+  
+  /* find las vegas hotel section end */
+
+
+
+/* Built for Travellers  css start */
+
+  .built-heading h2 {
+    font-size: 40px;
+    color:#0064c2;
+    line-height: 100%;
+    font-weight: 600;
+    text-align: center;
+}
+
+.built-heading p {
+    color: #fff;
+    text-align: center;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 25px;
+}
+
+.built-card-img {
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+    height: 300px;
+    border-radius: 10px;
+}
+
+.built-card-heading {
+    /* padding: 3px; */
+    position: absolute;
+    top: 13px;
+    left: 10px;
+    /* box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px; */
+}
+
+.built-card-inner {
+    position: relative;
+}
+
+.built-card-heading h5 {
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    padding: 10px;
+    color: #fff;
+    background: #0064c2;
+}
+
+/* Built for Travellers  end */
+
+/* -------------------------------------- */
+/* Featured Hotels css start */
+
+.feature-img {
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+    height: 250px;
+
+}
+
+.feature-heading {
+    text-align: center;
+    margin-bottom: 40px;
+}
+
+p.rate {
+    /* border: 2px solid #00000054; */
+    /* border-bottom: 2px solid #0000005c; */
+    border-top: 2px solid #fff;
+    padding-top: 10px;
+    font-size: 18px;
+    font-weight: 600;
+    /* color: #000000c7; */
+}
+
+.feature-content {
+    border: 2px solid #fff;
+    height: 100%;
+}
+
+.feature-text a p {
+    color: #fff;
+    font-size: 18px;
+}
+
+.feature-text a p:hover {
+    color: #0064c2;
+}
+
+.feature-text {
+    text-align: center;
+}
+
+/* Featured Hotels css end */
+  
+
+
+/* ------------ */
+
+
+
+
+
+
+/* footer css start */
+  
+
+.footer_disclaimer {
+    margin-bottom: 2.2rem;
+    text-align: center;
+}
+
+.footer_disclaimer h4 {
+    font-size: 24px;
+    font-weight: 500;
+    color: #fff;
+    text-align: center;
+    margin-bottom: 1.25rem;
+}
+
+.footer_disclaimer p {
+    color: #fff;
+}
+
+.footer_navbar {
+    border-bottom: 1px solid gray;
+    padding-bottom: 2.2rem;
+}
+
+.footer_list {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 0 2rem;
+}
+
+.footer_item a {
+    color: #fff;
+    font-size: 18px;
+    font-weight: 500;
+    transition: 0.3s ease-in-out;
+}
+
+.footer_item a:hover {
+    color: #0064c2;
+}
+
+.footer_btm {
+    padding-block: 24px;
+}
+
+.copyright p {
+    color: #fff;
+}
+
+.footer_btmWrapp {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.ssl {
+    width: 50%;
+    display: flex;
+    justify-content: end;
+    align-items: center;
+}
+
+.sslLink {
+    background-image: url("../images/ssl-logo.png");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    max-width: 134px;
+    width: 100%;
+    height: 47px;
+    display: inline-block;
+}
+
+.socials {
+    padding-block: 2rem;
+}
+
+.social_wrapper {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 1rem;
+}
+
+.social a {
+    width: 2.8rem;
+    height: 2.8rem;
+    border: 1px solid gray;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transition: 0.3s ease-in-out;
+}
+
+.social a:hover {
+    background-color: #0064c2;
+    border-color: transparent;
+    transform: translateY(-10px);
+    color: #fff;
+}
+
+.social i {
+    font-size: 24px;
+    color: #fff;
+}
+
+.social a svg {
+    height: 100%;
+    width: 100%;
+    fill: #fff;
+    padding: 9px;
+}
+.social svg {
+    padding: 5px;
+}
+/* footer css end */
+
+
+.bg-dark{
+    background-color: #e5eff9;
+}
+
+.section_heading{
+    color:#0064c2;
+}
