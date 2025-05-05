@@ -6,6 +6,9 @@
 
 
 @media only screen and (max-width: 991px) {
+    html{
+        font-size: 15px;
+    }
     .navbar ul {
         display: flex;
         flex-direction: column;
@@ -75,7 +78,7 @@
     }
 
     .after-banner-text {
-        padding: 0px 10px;
+        padding: 20px 0;
     }
     .hero-text {
         margin: 100px 0;
@@ -99,6 +102,9 @@
     }
     .right-hotel-heading h2 {
         font-size: 30px;
+    }
+    html{
+        font-size: 14px;
     }
 }
 
@@ -128,6 +134,28 @@
         padding: 12px;
         width: 90%;
     }
+    .footer_list {
+        gap: 0 1rem;
+    }
+   .footer_btmWrapp {
+
+        flex-direction: column;
+    }
+    .ssl {
+        justify-content: center;
+    }
+    .header_pages_content_wrap {
+        padding: 0;
+    }
+    #contact {
+        max-width: 100%;
+    }
+    .big-event-text p {
+        font-size: 16px;
+    }
+    .banner_personal h1 {
+        font-size: 35px;
+    }
 }
 
 
@@ -137,6 +165,12 @@
     }
     .hero-text p {
         font-size: 15px;
+    }
+    .footer_item a {
+        font-size: 15px;
+    }
+    .banner_personal h1 {
+        font-size: 25px;
     }
 
 }
