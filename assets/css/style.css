@@ -844,13 +844,13 @@ p.rate {
 }
 
 .sslLink {
-    background-image: url("../images/ssl-logo.png");
+    background-image: url("../images/ssl.svg");
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
     max-width: 134px;
     width: 100%;
-    height: 47px;
+    height: 40px;
     display: inline-block;
 }
 
@@ -905,5 +905,247 @@ p.rate {
 }
 
 .section_heading{
-    color:#0064c2;
+    color:;
 }
+
+/* --------------------------------------- */
+
+/* festival page css start */
+
+/* after-banner css start */
+.after-banner-image {
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 100%;
+    height: 300px;
+    border-radius: 10px;
+}
+
+.after-banner-text h2 {
+    font-size: 32px;
+    font-weight: 600;
+    color: #0064c2;
+    
+}
+
+.after-banner-text p {
+    font-size: 18px;
+    color: #fff;
+    font-weight: 500;
+    line-height: 25px;
+}
+
+.after-banner-text {
+    padding: 57px 0;
+}
+
+
+/* festival hotel css start */
+
+.budget-hotel-heading {
+    text-align: center;
+    margin-bottom: 3rem;
+  }
+  
+  .hotel-section {
+    border: 1px solid #ddd;
+    padding: 20px;
+    text-align: center;
+    font-family: Arial, sans-serif;
+    height: 100%;
+  }
+  
+  .hotel-image {
+    width: 100%;
+    height: 280px;
+    border-radius: 10px;
+  }
+  
+  .hotel-name {
+    font-size: 24px;
+    margin: 10px 0;
+    color: #000;
+  }
+  
+  .night-stay,
+  .hotel-price {
+    font-size: 16px;
+    margin: 5px 0;
+  }
+  
+  .amenities-list {
+    list-style-type: none;
+    padding: 0;
+    margin: 15px 0;
+  }
+  
+  .amenities-list li {
+    background: #f4f4f4;
+    margin: 5px 0;
+    padding: 10px;
+    border-radius: 5px;
+  }
+  
+  .description {
+    font-size: 14px;
+    color: #555;
+    margin-top: 15px;
+    display: none;
+  }
+  
+  .text-close {
+    margin-top: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    gap: 8px;
+  }
+  
+  .text-close svg {
+    height: 17px;
+    width: 17px;
+    fill: #fff;
+  }
+  
+  button.close-text-button {
+    border-radius: 6px;
+    padding: 5px 10px;
+    font-size: 14px;
+    margin-top: 9px;
+  }
+  
+  button.close-text-button:hover svg {
+    fill: #3e5541;
+  }
+  
+  .top-hotel-second {
+    margin-top: 25px;
+  }
+  
+  /* festival hotel css end */
+
+
+/* festival page css end */
+
+
+/* privacy policy page css start */
+
+
+.personal-banner {
+    background-position: center !important;
+    background-repeat: no-repeat !important;
+    background-size: cover !important;
+    width: 100%;
+    height: 29.625rem;
+    position: relative;
+}
+
+.personal-banner::before {
+    content: '';
+    position: absolute;
+    background: rgba(0 0 0 / 40%);
+    background-blend-mode: multiply;
+    width: 100%;
+    height: 100%;
+    z-index: 0;
+}
+
+.banner_personal {
+    display: flex;
+    gap: 20px;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+    text-align: center;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    color: #fff;
+    width: 80%;
+    transform: translate(-50%, -50%);
+}
+
+.banner_personal h1 {
+    font-size: 40px;
+    font-weight: 700;
+}
+
+
+.after-banner-text-main {
+    font-size: 1rem;
+    color: #000;
+    line-height: 27px;
+    padding: 23px 105px 23px 105px;
+    text-align: center;
+    background: #e1bd85;
+    border-radius: 30px;
+}
+
+.after-banner-text-main p a {
+    color: #000;
+}
+
+.after-banner-text-main p a:hover {
+    color: #fff;
+}
+
+.after-banner-text-main p {
+    font-size: 18px;
+    color: #000;
+    line-height: 25px;
+    margin-bottom: 0;
+}
+
+.personal-page-content ul {
+    padding-left: 20px;
+}
+
+
+.personal-page-content h2 {
+    font-size: 30px;
+    line-height: 1.4;
+    color: #af8c3e;
+    margin-bottom: 10px;
+}
+
+.personal-page-content p {
+    font-size: 18px;
+    line-height: 25px;
+    color: #fff;
+    margin-bottom: 10px;
+}
+
+.personal-page-content h4 {
+    font-size: 20px;
+    color: #af8c3e;
+    font-size: 20px;
+    margin-bottom: 0.9375rem;
+    line-height: 1.4;
+}
+
+.personal-page-content p a {
+    color: #fff;
+}
+
+.personal-page-content p a:hover {
+    color: #ab8965;
+}
+
+.personal-page-content ul li {
+    list-style: none;
+    position: relative;
+}
+
+.personal-page-content ul li::before {
+    content: ".";
+    position: absolute;
+    color: #fff;
+    border-radius: 50%;
+    left: -21px;
+    top: -50px;
+    font-size: 60px;
+}
+
+/* personal page section end */
