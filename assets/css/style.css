@@ -1183,7 +1183,80 @@ p.rating {
     left: -21px;
     top: -50px;
     font-size: 60px;
+
 }
+
+
+
+/* why choose us css start */
+
+.why-choose-img {
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: contain;
+    width: 50px;
+    height: 50px;
+    margin: 0 auto;
+}
+
+.why-choose-heading h2 {
+    font-size: 40px;
+    font-weight: 600;
+    color: #fff;
+    line-height: 100%;
+    padding-bottom: 20px;
+    text-align: center;
+}
+
+.why-choose-text {
+    text-align: center;
+    padding-top: 20px;
+}
+
+.why-choose-img svg {
+    width: 60px;
+    height: 60px;
+    transition: 0.4s all ease-in-out;
+}
+
+.why-choose {
+    height: 100%;
+    background: #0064c2;
+    padding: 15px;
+    border-radius: 10px;
+    transition: 0.4s all ease-in-out;
+    border: 2px solid #FFEB3B;
+}
+
+.why-choose:hover {
+    background: #fff;
+}
+
+.why-choose:hover svg {
+    fill: #0064c2;
+}
+
+.why-choose-text p {
+    font-size: 18px;
+    color: #000;
+    line-height: 25px;
+    font-weight: 300;
+    padding-top: 10px;
+    margin-bottom: 0;
+}
+
+.why-choose-text h2 {
+    font-size: 25px;
+    color: #000;
+    line-height: 100%;
+    font-weight: 600;
+    margin-bottom: 0;
+}
+
+/* why choose us css end */
+
+
+
 
 /* personal page section end */
 
