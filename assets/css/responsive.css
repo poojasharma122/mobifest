@@ -116,6 +116,18 @@
     .built-heading h2 {
         font-size: 25px;
     }
+    .newsletter_formWrap {
+        max-width: 480px;
+        width: 100%;
+        flex-direction: column;
+         background-color: #00000000;
+    }
+
+    .newsletter_formWrap .newsletter_input {
+        background-color: #fff;
+        padding: 12px;
+        width: 90%;
+    }
 }
 
 
