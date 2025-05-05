@@ -80,7 +80,9 @@
     .hero-text {
         margin: 100px 0;
     }
-
+    .listing {
+        flex: 1 1 45%;
+    }
 }
 
 
@@ -89,4 +91,40 @@
     .contact-left {
         padding: 30px 0 0 0;
     }
+    .hero-text h1 {
+        font-size: 35px;
+    }
+    .event-heading {
+        margin-top: 20px;
+    }
+    .right-hotel-heading h2 {
+        font-size: 30px;
+    }
+}
+
+
+@media screen and (max-width:575px){
+    .hero-text h1 {
+        font-size: 30px;
+    }
+    .listing {
+        flex: 1 1 100%;
+    }
+    .right-hotel-heading h2 {
+        font-size: 25px;
+    }
+    .built-heading h2 {
+        font-size: 25px;
+    }
+}
+
+
+@media screen and (max-width:480px){
+    .hero-text h1 {
+        font-size: 25px;
+    }
+    .hero-text p {
+        font-size: 15px;
+    }
+
 }
