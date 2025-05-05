@@ -953,6 +953,23 @@ p.rate {
     text-align: center;
     margin-bottom: 3rem;
   }
+
+  .budget-hotel-heading h2 {
+    color: #0064c2;
+    font-size: 32px;
+    font-weight: 600;
+}
+
+.budget-hotel-heading p {
+    color: #fff;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 25px;
+}
+
+p.rating {
+    margin-bottom: 0px;
+}
   
   .hotel-section {
     border: 1px solid #ddd;
@@ -991,7 +1008,15 @@ p.rate {
     margin: 5px 0;
     padding: 10px;
     border-radius: 5px;
-  }
+    font-size: 16px;
+    font-weight: 600;
+}
+
+.description h4 {
+    font-size: 24px;
+    font-weight: 600;
+    color: #fff;
+}
   
   .description-main p {
     font-size: 18px;
