@@ -1338,6 +1338,10 @@ p.rating {
     position: relative;
     background-color: #fff;
 }
+footer.footer.pt-80.main-scroll {
+    box-shadow: rgba(255, 255, 255) 0px 3px 8px;
+    margin-top: 60px;
+}
 
 .footer-pages-content-grp {
     margin-bottom: 1.2rem;
