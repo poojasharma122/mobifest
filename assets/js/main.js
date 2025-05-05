@@ -2,7 +2,7 @@
   $('.subpage-readmore-btn').click(function (e) {
     e.preventDefault();
     const $button = $(this);
-    const $content = $button.closest('.blogpost-text').find('.blogpost-content');
+    const $content = $button.closest('.description-main').find('.description');
 
     $content.stop(true, true).slideToggle(500, function () {
         const isVisible = $content.is(':visible');
