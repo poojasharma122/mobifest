@@ -1220,8 +1220,8 @@ p.rating {
 }
 
 .why-choose-img svg {
-    width: 60px;
-    height: 60px;
+    width: 45px;
+    height: 45px;
     transition: 0.4s all ease-in-out;
 }
 
@@ -1280,7 +1280,9 @@ p.rating {
 .hotel_read_more  .read-more-main {
     height: 200px;
 }
-
+.text_white{
+    color: #fff;
+}
 
 
 
