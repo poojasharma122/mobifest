@@ -1,3 +1,10 @@
+@media screen and (max-width:1199px){
+    .hotel_read_more .listing {
+        flex: 1 1 45%;
+    }
+}
+
+
 @media only screen and (max-width: 991px) {
     .navbar ul {
         display: flex;
@@ -73,6 +80,7 @@
     .hero-text {
         margin: 100px 0;
     }
+
 }
 
 
