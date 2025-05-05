@@ -1584,7 +1584,6 @@ fieldset {
 .guides_cards:hover::before {
     background: rgba(0, 0, 0, 0.5);
 }
-
 .guide_card_content {
     position: absolute;
     bottom: 0;
