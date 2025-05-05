@@ -1051,20 +1051,17 @@ p.rating {
   .text-close svg {
     height: 17px;
     width: 17px;
-    fill: #000;
+    fill: #fff;
   }
   
   button.close-text-button {
     border-radius: 6px;
-    padding: 5px 10px;
+    padding: 13px 20px;
     font-size: 14px;
     margin-top: 9px;
   }
   
-  button.close-text-button:hover svg {
-    fill: #3e5541;
-  }
-  
+ 
   .top-hotel-second {
     margin-top: 25px;
   }
