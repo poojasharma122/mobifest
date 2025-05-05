@@ -24,11 +24,11 @@ ul {
 }
 
 
-body{
+body {
     background-color: #000000e7;
 }
 
-.main-scroll{
+.main-scroll {
     overflow: hidden;
 }
 
@@ -130,60 +130,69 @@ header.sticky {
     transform-origin: center;
 }
 
-.nav-item a.active, .nav-item a:hover {
+.nav-item a.active,
+.nav-item a:hover {
     color: #0064c2;
 }
+
 .mb-20 {
     margin-bottom: 20px;
-  }
-  
-  .mb-30 {
-    margin-bottom: 30px;
-  }
-  
-  .mt-30 {
-    margin-top: 30px;
-  }
-  
-  .mb-40 {
-    margin-bottom: 40px;
-  }
-  
-  .mt-40 {
-    margin-top: 40px;
-  }
-  
-  .mb-60 {
-    margin-bottom: 60px;
-  }
-  
-  .mt-60 {
-    margin-top: 60px;
-  }
-  
-  .mb-80 {
-    margin-bottom: 80px;
-  }
+}
 
-  .pt-80{
+.mb-30 {
+    margin-bottom: 30px;
+}
+
+.mt-30 {
+    margin-top: 30px;
+}
+
+.mb-40 {
+    margin-bottom: 40px;
+}
+
+.mt-40 {
+    margin-top: 40px;
+}
+
+.mb-60 {
+    margin-bottom: 60px;
+}
+
+.mt-60 {
+    margin-top: 60px;
+}
+
+.mb-80 {
+    margin-bottom: 80px;
+}
+
+.pt-80 {
     padding-top: 80px;
-  }
-  
-  .mt-80 {
+}
+
+.mt-80 {
     margin-top: 80px;
-  }
-  
-  .pt-120 {
+}
+
+.pt-120 {
     padding-top: 120px;
-  }
-  .pb-80{
+}
+
+.pb-80 {
     padding-bottom: 80px;
-  }
-  .py-80{
+}
+
+.py-80 {
     padding: 80px 0;
-  }
-  .bg_light {
+}
+
+.bg_light {
     background-color: #fff;
+}
+
+.text_dark {
+    color: #191919;
 }
 
 /* 
@@ -243,7 +252,7 @@ Keyframe Animations
 }
 
 
- /* banner section css start */
+/* banner section css start */
 
 .hero-bg {
     background: url(../images/home-banner.webp);
@@ -349,7 +358,7 @@ Keyframe Animations
     gap: 1rem;
     align-items: center;
     justify-self: center;
-    background-color:#fff;
+    background-color: #fff;
     max-width: 480px;
     width: 100%;
     padding: 4px;
@@ -404,7 +413,7 @@ Keyframe Animations
     cursor: pointer;
 }
 
-.btn:hover{
+.btn:hover {
     color: #e1bd85;
     background-color: #fff;
     border: 1px solid #e1bd85;
@@ -430,53 +439,53 @@ h2.page-heading {
     font-size: 40px;
     font-weight: 600;
     text-align: center;
-    color:#0064c2;
+    color: #0064c2;
     padding-bottom: 20px;
 }
 
-  .zeuzie-listings {
+.zeuzie-listings {
     display: flex;
     flex-wrap: wrap;
     gap: 1rem;
     justify-content: space-between;
-  }
+}
 
-  .listing {
+.listing {
     flex: 1 1 30%;
     background: #fff;
     border-radius: 8px;
     overflow: hidden;
-    box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
     text-align: center;
     padding: 1rem;
     margin-bottom: 20px;
 }
 
-  .listing img {
+.listing img {
     width: 100%;
     height: auto;
     border-radius: 4px;
-  }
+}
 
-  .listing h3 {
+.listing h3 {
     margin: 0.5rem 0;
     color: #000;
-  }
+}
 
-  .listing p {
+.listing p {
     color: #555;
-  }
+}
 
-  .listing a {
+.listing a {
     text-decoration: none;
-  }
+}
 
-  .listing a:hover h3 {
+.listing a:hover h3 {
     text-decoration: underline;
     color: #0064c2;
 }
 
-  .read-more-img {
+.read-more-img {
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -544,36 +553,36 @@ h2.page-heading {
     overflow: hidden;
 }
 
-  .glow-button::after {
+.glow-button::after {
     content: '';
     position: absolute;
     top: -50%;
     left: -50%;
     width: 200%;
     height: 200%;
-    background: radial-gradient(circle, rgba(255,255,255,0.2) 0%, transparent 70%);
+    background: radial-gradient(circle, rgba(255, 255, 255, 0.2) 0%, transparent 70%);
     opacity: 0;
     transition: opacity 0.5s, transform 0.5s;
     transform: scale(0);
-  }
+}
 
-  .glow-button:hover::after {
+.glow-button:hover::after {
     opacity: 1;
     transform: scale(1);
-  }
+}
 
-  .glow-button:hover {
+.glow-button:hover {
     box-shadow: 0 0 20px rgba(174, 113, 230, 0.6), 0 0 40px rgba(174, 113, 230, 0.4);
     transform: translateY(-2px);
-  }
+}
 
-  /* big event css start */
+/* big event css start */
 
 
 
 /* trip plan css start */
 
-  .trip-plan-img {
+.trip-plan-img {
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -608,6 +617,7 @@ h2.page-heading {
 .trip-plan-text {
     padding-top: 20px;
 }
+
 /* trip plan css end */
 
 
@@ -616,10 +626,10 @@ h2.page-heading {
 .right-hotel-heading {
     text-align: center;
     margin-bottom: 40px;
-  }
-  
-  .right-hotel-heading h2 {
-    color:#0064c2;
+}
+
+.right-hotel-heading h2 {
+    color: #0064c2;
     font-size: 40px;
     font-weight: 600;
     line-height: 100%;
@@ -630,8 +640,8 @@ h2.page-heading {
     color: #fff;
     font-weight: 500;
 }
- 
-  .card {
+
+.card {
     position: relative;
     width: 100%;
     height: 360px;
@@ -641,10 +651,10 @@ h2.page-heading {
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
-  }
-  
-  
-  .card-content {
+}
+
+
+.card-content {
     position: absolute;
     bottom: 0;
     left: 0;
@@ -654,40 +664,40 @@ h2.page-heading {
     color: white;
     transition: transform 0.5s ease;
     transform: translateY(100%);
-  }
-  
-  
-  .card-heading {
+}
+
+
+.card-heading {
     font-size: 18px;
     margin: 0;
-  }
-  
- 
-  .card-text {
+}
+
+
+.card-text {
     margin: 10px 0 0;
     opacity: 0;
     font-size: 1rem;
     transition: opacity 0.3s ease 0.2s;
-  }
-  
+}
 
-  .card:hover .card-content {
+
+.card:hover .card-content {
     transform: translateY(0);
-  }
-  
-  .card:hover .card-text {
+}
+
+.card:hover .card-text {
     opacity: 1;
-  }
-  
-  /* find las vegas hotel section end */
+}
+
+/* find las vegas hotel section end */
 
 
 
 /* Built for Travellers  css start */
 
-  .built-heading h2 {
+.built-heading h2 {
     font-size: 40px;
-    color:#0064c2;
+    color: #0064c2;
     line-height: 100%;
     font-weight: 600;
     text-align: center;
@@ -778,7 +788,7 @@ p.rate {
 }
 
 /* Featured Hotels css end */
-  
+
 
 
 /* ------------ */
@@ -789,7 +799,7 @@ p.rate {
 
 
 /* footer css start */
-  
+
 
 .footer_disclaimer {
     margin-bottom: 2.2rem;
@@ -904,18 +914,20 @@ p.rate {
     fill: #fff;
     padding: 9px;
 }
+
 .social svg {
     padding: 5px;
 }
+
 /* footer css end */
 
 
-.bg-dark{
+.bg-dark {
     background-color: #e5eff9;
 }
 
-.section_heading{
-    color:#0064c2;
+.section_heading {
+    color: #0064c2;
 }
 
 /* --------------------------------------- */
@@ -936,7 +948,7 @@ p.rate {
     font-size: 32px;
     font-weight: 600;
     color: #0064c2;
-    
+
 }
 
 .after-banner-text p {
@@ -964,9 +976,9 @@ p.rate {
 .budget-hotel-heading {
     text-align: center;
     margin-bottom: 3rem;
-  }
+}
 
-  .budget-hotel-heading h2 {
+.budget-hotel-heading h2 {
     color: #0064c2;
     font-size: 32px;
     font-weight: 600;
@@ -982,40 +994,40 @@ p.rate {
 p.rating {
     margin-bottom: 0px;
 }
-  
-  .hotel-section {
+
+.hotel-section {
     border: 1px solid #ddd;
     padding: 20px;
     text-align: center;
     font-family: Arial, sans-serif;
     height: 100%;
-  }
-  
-  .hotel-image {
+}
+
+.hotel-image {
     width: 100%;
     height: 280px;
     border-radius: 10px;
-  }
-  
-  .hotel-name {
+}
+
+.hotel-name {
     font-size: 24px;
     margin: 10px 0;
     color: #0064c2;
-  }
-  
-  .night-stay,
-  .hotel-price {
+}
+
+.night-stay,
+.hotel-price {
     font-size: 16px;
     margin: 5px 0;
-  }
-  
-  .amenities-list {
+}
+
+.amenities-list {
     list-style-type: none;
     padding: 0;
     margin: 15px 0;
-  }
-  
-  .amenities-list li {
+}
+
+.amenities-list li {
     background: #f4f4f4;
     margin: 5px 0;
     padding: 10px;
@@ -1029,44 +1041,44 @@ p.rating {
     font-weight: 600;
     color: #fff;
 }
-  
-  .description-main p {
+
+.description-main p {
     font-size: 18px;
     color: #fff;
     line-height: 25px;
 }
 
-.description{
+.description {
     display: none;
 }
-  
-  .text-close {
+
+.text-close {
     margin-top: 10px;
     display: flex;
     flex-direction: column;
     align-items: center;
     gap: 8px;
-  }
-  
-  .text-close svg {
+}
+
+.text-close svg {
     height: 17px;
     width: 17px;
     fill: #fff;
-  }
-  
-  button.close-text-button {
+}
+
+button.close-text-button {
     border-radius: 6px;
     padding: 13px 20px;
     font-size: 14px;
     margin-top: 9px;
-  }
-  
- 
-  .top-hotel-second {
+}
+
+
+.top-hotel-second {
     margin-top: 25px;
-  }
-  
-  /* festival hotel css end */
+}
+
+/* festival hotel css end */
 
 
 /* festival page css end */
@@ -1273,14 +1285,16 @@ p.rating {
 .hotel_read_more .listing {
     flex: 1 1 20%;
 }
+
 .hotel_read_more .listing h3 {
     font-size: 1.2rem;
 }
 
-.hotel_read_more  .read-more-main {
+.hotel_read_more .read-more-main {
     height: 200px;
 }
-.text_white{
+
+.text_white {
     color: #fff;
 }
 
@@ -1340,6 +1354,7 @@ p.rating {
     position: relative;
     background-color: #fff;
 }
+
 footer.footer.pt-80.main-scroll {
     box-shadow: rgba(255, 255, 255) 0px 3px 8px;
     margin-top: 60px;
@@ -1437,7 +1452,7 @@ footer.footer.pt-80.main-scroll {
 
 .contact-left h3 {
     font-size: 1.5rem;
-    margin:0.9375rem 0;
+    margin: 0.9375rem 0;
     font-weight: 600;
     color: #0064c2;
 }
@@ -1592,7 +1607,7 @@ fieldset {
 
 .about_img_card h3 {
     margin-top: 0;
-    margin-bottom:0.9375rem;
+    margin-bottom: 0.9375rem;
     color: #333;
     font-size: 1.5em;
 }
@@ -1629,7 +1644,7 @@ fieldset {
 }
 
 .about_cards_icon {
-    height:4.375rem;
+    height: 4.375rem;
     margin-bottom: 20px;
     width: 4.375rem;
 }
@@ -1677,6 +1692,7 @@ fieldset {
 .guides_cards:hover::before {
     background: rgba(0, 0, 0, 0.5);
 }
+
 .guide_card_content {
     position: absolute;
     bottom: 0;
@@ -1697,7 +1713,7 @@ fieldset {
 }
 
 .guides_cards:hover .card-heading {
-    transform: translateY(-10px); 
+    transform: translateY(-10px);
 }
 
 .guide_card_content .card-button {
@@ -1723,9 +1739,11 @@ fieldset {
     transform: translateY(-5px);
     box-shadow: 0 8px 16px rgba(255, 255, 255, 0.9);
 }
-.guides_cards_wrap .row .col-md-6{
+
+.guides_cards_wrap .row .col-md-6 {
     margin-bottom: 2.8125rem;
 }
+
 /* Guide Page CSS End */
 
 
@@ -1737,12 +1755,15 @@ fieldset {
     text-decoration: underline;
     text-underline-offset: 10px;
 }
+
 .guides_desc_content p {
     color: #fff;
     font-size: 1.1rem;
 }
+
 .guides_desc_content h3 {
     color: #0064c2;
     font-size: 1.5rem;
 }
+
 /* Guides Details CSS End*/
