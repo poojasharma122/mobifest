@@ -998,7 +998,7 @@ p.rating {
 .hotel-section {
     border: 1px solid #ddd;
     padding: 20px;
-    text-align: center;
+    /* text-align: center; */
     font-family: Arial, sans-serif;
     height: 100%;
 }
@@ -1767,3 +1767,38 @@ fieldset {
 }
 
 /* Guides Details CSS End*/
+
+
+
+/* Description Pages CSS Start */
+.hotel_desc_wrap {
+    padding: 50px;
+}
+.hotel_desc_wrap>h2 {
+    font-size: 2rem;
+    color:#fff;
+}
+.hotel_desc_img {
+    height: 500px;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    width: 100%;
+    border-radius: 20px;
+    overflow: hidden;
+}
+h4.hotel_desc_subhead {
+    color:#0064c2;
+    font-size: 1.4rem;
+}
+.hotel_desc_list li svg {
+    height: 15px;
+    width: 15px;
+    vertical-align: middle;
+    display: inline-block;
+    margin-right: 10px;
+}
+.hotel_desc_list li {
+    color: #fff;
+}
+/* Description Pages CSS End */
