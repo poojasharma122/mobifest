@@ -1788,8 +1788,9 @@ fieldset {
     overflow: hidden;
 }
 h4.hotel_desc_subhead {
-    color:#0064c2;
+    color: #0064c2;
     font-size: 1.4rem;
+    margin-bottom: 16px;
 }
 .hotel_desc_list li svg {
     height: 15px;
@@ -1800,5 +1801,6 @@ h4.hotel_desc_subhead {
 }
 .hotel_desc_list li {
     color: #fff;
+    padding-bottom: 10px;
 }
 /* Description Pages CSS End */
