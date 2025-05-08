@@ -1804,3 +1804,8 @@ h4.hotel_desc_subhead {
     padding-bottom: 10px;
 }
 /* Description Pages CSS End */
+
+
+form.newsletter_form {
+    margin: 0 auto;
+}
