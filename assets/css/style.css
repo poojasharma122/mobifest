@@ -363,6 +363,7 @@ Keyframe Animations
     width: 100%;
     padding: 4px;
     border-radius: 4px;
+    margin: 0 auto;
 }
 
 .newsletter_formWrap .newsletter_input {
