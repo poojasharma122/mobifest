@@ -1807,6 +1807,13 @@ h4.hotel_desc_subhead {
 /* Description Pages CSS End */
 
 
-form.newsletter_form {
+/* form.newsletter_form {
     margin: 0 auto;
+} */
+
+.newsletter_inner {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
 }
